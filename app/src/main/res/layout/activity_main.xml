@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dimens_16"
+        android:layout_marginStart="@dimen/dimens_24"
+        android:layout_marginEnd="@dimen/dimens_24">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnMainHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/acsLightTextPrimary400"
+            android:textColor="@color/onPrimary"
+            android:text="Hello"
+            android:layout_marginBottom="@dimen/dimens_8" />
+
+        <Button
+            android:id="@+id/btnMainHello2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/acsDarkTextPrimary50"
+            android:textColor="@color/onBackground"
+            android:text="Hello"
+            android:layout_marginBottom="@dimen/dimens_8" />
+
+    </LinearLayout>
+
+</ScrollView>

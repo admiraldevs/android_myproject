@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <!-- Primary Color -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary700">#303F9F</color>
+    <color name="colorPrimary200">#9FA8DA</color>
+
+    <!-- Secondary Color -->
+    <color name="colorSecondary">#607D8B</color>
+    <color name="colorSecondary700">#455A64</color>
+    <color name="colorSecondary200">#B0BEC5</color>
+
+    <!-- Surface, background, and error colors -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+
+    <!-- Typography and iconography colors -->
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="onBackground">#000000</color>
+    <color name="onSurface">#000000</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Accessible colors -->
+    <color name="acsDarkPrimary50">#E8EAF6</color>
+    <color name="acsLightPrimary400">#5C6BC0</color>
+    <color name="acsDarkSecondary50">#ECEFF1</color>
+    <color name="acsLightSecondary400">#78909C</color>
+
+    <!-- Alternative colors -->
+    <!-- Additional colors for data visualization -->
 </resources>

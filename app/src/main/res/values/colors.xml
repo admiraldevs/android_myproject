@@ -23,10 +23,10 @@
     <color name="onError">#FFFFFF</color>
 
     <!-- Accessible colors -->
-    <color name="acsDarkPrimary50">#E8EAF6</color>
-    <color name="acsLightPrimary400">#5C6BC0</color>
-    <color name="acsDarkSecondary50">#ECEFF1</color>
-    <color name="acsLightSecondary400">#78909C</color>
+    <color name="acsDarkTextPrimary50">#E8EAF6</color>
+    <color name="acsLightTextPrimary400">#5C6BC0</color>
+    <color name="acsDarkTextSecondary50">#ECEFF1</color>
+    <color name="acsLightTextSecondary400">#78909C</color>
 
     <!-- Alternative colors -->
     <!-- Additional colors for data visualization -->
